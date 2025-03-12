@@ -1,0 +1,64 @@
+﻿@{
+    Layout = "~/views/shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Quản lý Tag";
+}
+
+@model List<MonAn>
+
+@{
+    ViewData["Title"] = "Danh sách Món Ăn";
+}
+
+<h2>Danh sách Món Ăn</h2>
+
+<a asp-action="CreateMonAn" class="btn btn-primary">Thêm Món Ăn</a>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Tên Món</th>
+            <th>Mô Tả</th>
+            <th>Giá</th>
+            <th>Hình Ảnh</th>
+            <th>Số Lượng</th>
+            <th>Trạng Thái</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaMonAn</td>
+                <td>@item.TenMonAn</td>
+                <td>@item.MoTa</td>
+                <td>@item.Gia.ToString("N0") VNĐ</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.DuongDanHinh))
+                    {
+                        <img src="@item.DuongDanHinh" alt="Hình ảnh món ăn" width="80">
+                    }
+                    else
+                    {
+                        <span>Không có ảnh</span>
+                    }
+                </td>
+                <td>@item.Soluong</td>
+                <td>
+                    @if (item.TrangThai == true)
+                    {
+                        <span class="text-success">Đang bán</span>
+                    }
+                    else
+                    {
+                        <span class="text-danger">Ngừng bán</span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="EditMonAn" asp-route-id="@item.MaMonAn" class="btn btn-warning btn-sm">Chỉnh Sửa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

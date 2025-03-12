@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPOLY\\Ky5\\Block1\\C#5\\ASMHT_Backup\\ASMHT_PH53971\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C89D7AE-A2C0-44A2-BF48-4961E2184B1B}|ASMHT_PH53971\\ASMHT_PH53971.csproj|d:\\fpoly\\ky5\\block1\\c#5\\asmht_backup\\asmht_ph53971\\asmht_ph53971\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C89D7AE-A2C0-44A2-BF48-4961E2184B1B}|ASMHT_PH53971\\ASMHT_PH53971.csproj|solutionrelative:asmht_ph53971\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C89D7AE-A2C0-44A2-BF48-4961E2184B1B}|ASMHT_PH53971\\ASMHT_PH53971.csproj|d:\\fpoly\\ky5\\block1\\c#5\\asmht_backup\\asmht_ph53971\\asmht_ph53971\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C89D7AE-A2C0-44A2-BF48-4961E2184B1B}|ASMHT_PH53971\\ASMHT_PH53971.csproj|solutionrelative:asmht_ph53971\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPOLY\\Ky5\\Block1\\C#5\\ASMHT_Backup\\ASMHT_PH53971\\ASMHT_PH53971\\appsettings.json",
+              "RelativeDocumentMoniker": "ASMHT_PH53971\\appsettings.json",
+              "ToolTip": "D:\\FPOLY\\Ky5\\Block1\\C#5\\ASMHT_Backup\\ASMHT_PH53971\\ASMHT_PH53971\\appsettings.json",
+              "RelativeToolTip": "ASMHT_PH53971\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T17:21:19.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPOLY\\Ky5\\Block1\\C#5\\ASMHT_Backup\\ASMHT_PH53971\\ASMHT_PH53971\\Program.cs",
+              "RelativeDocumentMoniker": "ASMHT_PH53971\\Program.cs",
+              "ToolTip": "D:\\FPOLY\\Ky5\\Block1\\C#5\\ASMHT_Backup\\ASMHT_PH53971\\ASMHT_PH53971\\Program.cs",
+              "RelativeToolTip": "ASMHT_PH53971\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:21:14.699Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

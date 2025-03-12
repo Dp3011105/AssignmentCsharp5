@@ -1,0 +1,171 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ASMHT_PH53971
+build_property.RootNamespace = ASMHT_PH53971
+build_property.ProjectDir = D:\FPOLY\Ky5\Block1\C#5\ASMHT_Backup\ASMHT_PH53971\ASMHT_PH53971\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\FPOLY\Ky5\Block1\C#5\ASMHT_Backup\ASMHT_PH53971\ASMHT_PH53971
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Account/ExternalLoginConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFeHRlcm5hbExvZ2luQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Admin/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Admin/CreateCombo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQ29tYm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Admin/CreateMonAn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlTW9uQW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Admin/CreateTag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlVGFnLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Admin/EditCombo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdENvbWJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Admin/EditMonAn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdE1vbkFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Admin/EditNguoiDung.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdE5ndW9pRHVuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Admin/EditTag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFRhZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Admin/IndexTag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXhUYWcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Admin/ListComBo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdENvbUJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Admin/ListDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdERvbkhhbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Admin/ListMonAn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdE1vbkFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Admin/ListNguoiDung.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdE5ndW9pRHVuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/DonHang/ChiTietDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ1xDaGlUaWV0RG9uSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/DonHang/DonHangCuaToi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ1xEb25IYW5nQ3VhVG9pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/DonHang/ThanhToan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ1xUaGFuaFRvYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/GioHang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvSGFuZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Home/ComboDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21ib0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Home/ComboList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21ib0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/KhachHang/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/KhachHang/DetailsComBo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXERldGFpbHNDb21Cby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/KhachHang/EditNguoiDung.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXEVkaXROZ3VvaUR1bmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/KhachHang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/KhachHang/IndexComBo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXEluZGV4Q29tQm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-t0l05qfhkm
+
+[D:/FPOLY/Ky5/Block1/C\#5/ASMHT_Backup/ASMHT_PH53971/ASMHT_PH53971/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-iavb0l5mah

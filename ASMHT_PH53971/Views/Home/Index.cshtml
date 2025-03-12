@@ -1,0 +1,79 @@
+﻿@model IEnumerable<ASMHT_PH53971.Models.MonAn>
+@{
+    ViewData["Title"] = "Danh Sách Món Ăn";
+}
+
+
+<div class="d-flex justify-content-center">
+    <video class="shadow-lg rounded" autoplay loop muted playsinline style=" width: 100%;">
+        <source src="~/video/Video.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video.
+    </video>
+</div>
+<!-- Dropdown tìm kiếm theo Tag -->
+<form method="get" class="mb-4 p-3 shadow-sm bg-light rounded">
+    <div class="row">
+        <!-- Lọc theo tag -->
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="selectedTag" class="fw-bold">Chọn Tag:</label>
+                <select name="selectedTag" id="selectedTag" class="form-control">
+                    <option value="">-- Tất cả --</option>
+                    @foreach (var tag in ViewBag.Tags as List<Tag>)
+                    {
+                        var selected = Context.Request.Query["selectedTag"] == tag.MaTag.ToString() ? "selected" : "";
+                        <option value="@tag.MaTag">@tag.TenTag</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <!-- Tìm kiếm theo tên -->
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="searchName" class="fw-bold">Tìm kiếm theo tên:</label>
+                <input type="text" name="searchName" id="searchName" class="form-control"
+                       value="@Context.Request.Query["searchName"]" placeholder="Nhập tên món ăn..." />
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center mt-3">
+        <button type="submit" class="btn btn-primary px-4">
+            <i class="fas fa-search"></i> Tìm kiếm
+        </button>
+    </div>
+</form>
+
+<!-- Hiển thị danh sách món ăn -->
+<div class="row mt-4">
+    @foreach (var product in Model)
+    {
+        if (product.TrangThai.HasValue && product.TrangThai.Value)
+        {
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 shadow border-0">
+                    <!-- Ảnh món ăn -->
+                    <div class="position-relative">
+                        <img src="@product.DuongDanHinh" class="card-img-top img-fluid rounded-top"
+                             alt="@product.TenMonAn" style="object-fit: cover; height: 220px;">
+                    </div>
+
+                    <!-- Thông tin món ăn -->
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-primary fw-bold text-center">@product.TenMonAn</h5>
+                        <p class="card-text text-muted text-center">@product.MoTa</p>
+                        <h5 class="text-danger fw-bold text-center">Giá: @product.Gia.ToString("N0") VND</h5>
+
+                        <a href="@Url.Action("Details", "KhachHang", new { id = product.MaMonAn })"
+                           class="btn btn-outline-primary mt-auto fw-bold">
+                            <i class="fas fa-info-circle"></i> Xem Chi Tiết
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>
+
+<

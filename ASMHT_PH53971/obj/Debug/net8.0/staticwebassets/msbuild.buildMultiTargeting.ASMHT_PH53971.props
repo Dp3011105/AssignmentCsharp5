@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ASMHT_PH53971.props" />
+</Project>

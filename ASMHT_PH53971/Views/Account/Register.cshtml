@@ -1,0 +1,225 @@
+﻿@* @model ASMHT_PH53971.Models.ViewModels.RegisterViewModel
+
+<h2 class="text-center mt-4">Đăng Ký</h2>
+
+<form asp-action="Register" method="post" class="mt-3">
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            <ul>
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            </ul>
+        </div>
+    }
+
+    <div class="mb-3">
+        <label class="form-label">Tên đăng nhập</label>
+        <input asp-for="UserName" class="form-control" placeholder="Nhập tên đăng nhập" />
+        <span class="text-danger" asp-validation-for="UserName"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input asp-for="Email" class="form-control" placeholder="Nhập email" />
+        <span class="text-danger" asp-validation-for="Email"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Mật khẩu</label>
+        <input asp-for="Password" type="password" class="form-control" placeholder="Nhập mật khẩu" />
+        <span class="text-danger" asp-validation-for="Password"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Xác nhận mật khẩu</label>
+        <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="Nhập lại mật khẩu" />
+        <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Họ</label>
+        <input asp-for="FirstName" class="form-control" placeholder="Nhập họ" />
+        <span class="text-danger" asp-validation-for="FirstName"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Tên</label>
+        <input asp-for="LastName" class="form-control" placeholder="Nhập tên" />
+        <span class="text-danger" asp-validation-for="LastName"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Ngày sinh</label>
+        <input asp-for="DateOfBirth" type="date" class="form-control" />
+        <span class="text-danger" asp-validation-for="DateOfBirth"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Địa chỉ</label>
+        <input asp-for="Address" class="form-control" placeholder="Nhập địa chỉ" />
+        <span class="text-danger" asp-validation-for="Address"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Giới tính</label>
+        <select asp-for="Gender" class="form-control">
+            <option value="Nam">Nam</option>
+            <option value="Nữ">Nữ</option>
+            <option value="Khác">Khác</option>
+        </select>
+        <span class="text-danger" asp-validation-for="Gender"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Quốc tịch</label>
+        <input asp-for="Nationality" class="form-control" placeholder="Nhập quốc tịch" />
+        <span class="text-danger" asp-validation-for="Nationality"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">Đăng Ký</button>
+
+    <div class="mt-3 text-center">
+        <a href="@Url.Action("Login", "Account")">Đã có tài khoản? Đăng nhập</a>
+    </div>
+    <div>
+       
+</form>
+<form asp-action="ExternalLogin" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+    <div>
+        <button type="submit" class="btn btn-primary" name="provider" value="Google" title="Log in using your Google account">
+            <i class="fab fa-google"></i> Tiếp tục với Google
+        </button>
+    </div>
+</form> *@
+
+@model ASMHT_PH53971.Models.ViewModels.RegisterViewModel
+
+<style>
+    .register-container {
+        max-width: 500px;
+        margin: auto;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .register-header {
+        text-align: center;
+        color: #007bff; /* Màu xanh dương */
+        margin-bottom: 20px;
+    }
+
+    .btn-google {
+        background-color: #4285f4; /* Màu xanh của Google */
+        color: white;
+        width: 100%;
+    }
+
+        .btn-google:hover {
+            background-color: #357ae8; /* Màu xanh đậm hơn khi hover */
+        }
+
+    .alert {
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="register-container">
+    <h2 class="register-header">Đăng Ký</h2>
+
+    <form asp-action="Register" method="post" class="mt-3">
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <li>@error.ErrorMessage</li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <div class="mb-3">
+            <label class="form-label">Tên đăng nhập</label>
+            <input asp-for="UserName" class="form-control" placeholder="Nhập tên đăng nhập" />
+            <span class="text-danger" asp-validation-for="UserName"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input asp-for="Email" class="form-control" placeholder="Nhập email" />
+            <span class="text-danger" asp-validation-for="Email"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Mật khẩu</label>
+            <input asp-for="Password" type="password" class="form-control" placeholder="Nhập mật khẩu" />
+            <span class="text-danger" asp-validation-for="Password"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Xác nhận mật khẩu</label>
+            <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="Nhập lại mật khẩu" />
+            <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Họ</label>
+            <input asp-for="FirstName" class="form-control" placeholder="Nhập họ" />
+            <span class="text-danger" asp-validation-for="FirstName"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tên</label>
+            <input asp-for="LastName" class="form-control" placeholder="Nhập tên" />
+            <span class="text-danger" asp-validation-for="LastName"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Ngày sinh</label>
+            <input asp-for="DateOfBirth" type="date" class="form-control" />
+            <span class="text-danger" asp-validation-for="DateOfBirth"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Địa chỉ</label>
+            <input asp-for="Address" class="form-control" placeholder="Nhập địa chỉ" />
+            <span class="text-danger" asp-validation-for="Address"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Giới tính</label>
+            <select asp-for="Gender" class="form-control">
+                <option value="Nam">Nam</option>
+                <option value="Nữ">Nữ</option>
+                <option value="Khác">Khác</option>
+            </select>
+            <span class="text-danger" asp-validation-for="Gender"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Quốc tịch</label>
+            <input asp-for="Nationality" class="form-control" placeholder="Nhập quốc tịch" />
+            <span class="text-danger" asp-validation-for="Nationality"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Đăng Ký</button>
+
+        <div class="mt-3 text-center">
+            <a href="@Url.Action("Login", "Account")">Đã có tài khoản? Đăng nhập</a>
+        </div>
+    </form>
+
+    <div class="mt-4 text-center">
+        <form asp-action="ExternalLogin" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+            <button type="submit" class="btn btn-google" name="provider" value="Google" title="Log in using your Google account">
+                <i class="fab fa-google"></i> Tiếp tục với Google
+            </button>
+        </form>
+    </div>
+</div>

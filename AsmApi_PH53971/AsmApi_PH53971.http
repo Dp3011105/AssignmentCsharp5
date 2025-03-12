@@ -1,0 +1,6 @@
+@AsmApi_PH53971_HostAddress = http://localhost:5032
+
+GET {{AsmApi_PH53971_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
